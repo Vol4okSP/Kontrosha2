@@ -1,0 +1,17 @@
+<body>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  <router-outlet>
+    <div>
+      <nav>
+        <a routerLink="" routerLinkActive="active-link">Главная; </a>
+        <a routerLink="/posts" routerLinkActive="active-link">Посты; </a>
+        <a routerLink="/login" routerLinkActive="active-link">Вход; </a>
+        <a routerLink="/register" routerLinkActive="active-link">Регистрация; </a>
+        <div>
+        </div>
+      </nav>
+    </div>
+  </router-outlet>
+</body>
